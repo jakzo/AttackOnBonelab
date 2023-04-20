@@ -1,0 +1,69 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net4.7.2</TargetFramework>
+    </PropertyGroup>
+
+    <Import Project="../Config.xml" />
+
+    <PropertyGroup>
+        <MelonLoaderPath Condition=" Exists('$(OculusGamePath)\MelonLoader') ">$(OculusGamePath)\MelonLoader</MelonLoaderPath>
+        <MelonLoaderPath Condition=" Exists('$(SteamGamePath)\MelonLoader') ">$(SteamGamePath)\MelonLoader</MelonLoaderPath>
+        <MelonLoaderPath Condition=" Exists('$(OtherReferencesPath)') ">$(OtherReferencesPath)</MelonLoaderPath>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Reference Include="MelonLoader">
+            <HintPath>$(MelonLoaderPath)/MelonLoader.dll</HintPath>
+        </Reference>
+        <Reference Include="Harmony">
+            <HintPath>$(MelonLoaderPath)/0Harmony.dll</HintPath>
+        </Reference>
+        <Reference Include="Assembly-CSharp">
+            <HintPath>$(MelonLoaderPath)/Managed/Assembly-CSharp.dll</HintPath>
+        </Reference>
+        <Reference Include="SLZ.Marrow">
+            <HintPath>$(MelonLoaderPath)/Managed/SLZ.Marrow.dll</HintPath>
+        </Reference>
+        <Reference Include="SLZ.Marrow.SDK">
+            <HintPath>$(MelonLoaderPath)/Managed/SLZ.Marrow.SDK.dll</HintPath>
+        </Reference>
+        <Reference Include="Il2Cppmscorlib">
+            <HintPath>$(MelonLoaderPath)/Managed/Il2Cppmscorlib.dll</HintPath>
+        </Reference>
+        <Reference Include="UnhollowerBaseLib">
+            <HintPath>$(MelonLoaderPath)/Managed/UnhollowerBaseLib.dll</HintPath>
+        </Reference>
+        <Reference Include="UniTask">
+            <HintPath>$(MelonLoaderPath)/Managed/UniTask.dll</HintPath>
+        </Reference>
+        <Reference Include="UnhollowerRuntimeLib">
+            <HintPath>$(MelonLoaderPath)/Managed/UnhollowerRuntimeLib.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.CoreModule">
+            <HintPath>$(MelonLoaderPath)/Managed/UnityEngine.CoreModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.PhysicsModule">
+            <HintPath>$(MelonLoaderPath)/Managed/UnityEngine.PhysicsModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.AnimationModule">
+            <HintPath>$(MelonLoaderPath)/Managed/UnityEngine.AnimationModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.UI">
+            <HintPath>$(MelonLoaderPath)/Managed/UnityEngine.UI.dll</HintPath>
+        </Reference>
+        <Reference Include="Unity.TextMeshPro">
+            <HintPath>$(MelonLoaderPath)/Managed/Unity.TextMeshPro.dll</HintPath>
+        </Reference>
+        <Reference Include="Unity.ResourceManager">
+            <HintPath>$(MelonLoaderPath)/Managed/Unity.ResourceManager.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.InputLegacyModule">
+            <HintPath>$(MelonLoaderPath)/Managed/UnityEngine.InputLegacyModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.VRModule">
+            <HintPath>$(MelonLoaderPath)/Managed/UnityEngine.VRModule.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+
+</Project>

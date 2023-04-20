@@ -1,0 +1,10 @@
+<Project>
+	<PropertyGroup>
+		<AssemblyTitle>BonelabAttackOnTitan</AssemblyTitle>
+		<AssemblyDescription>Hide and seek while disguised as random items.</AssemblyDescription>
+		<ModAuthor>jakzo</ModAuthor>
+		<ThunderstoreUrl>https://bonelab.thunderstore.io/package/jakzo/BonelabAttackOnTitan/</ThunderstoreUrl>
+		<GameDeveloper>Stress Level Zero</GameDeveloper>
+		<GameName>BONELAB</GameName>
+	</PropertyGroup>
+</Project>

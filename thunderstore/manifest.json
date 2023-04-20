@@ -1,0 +1,7 @@
+{
+    "name": "AttackOnTitan",
+    "version_number": "0.0.0",
+    "description": "Fly around with 3D manoeuver gear and fight titans in Bonelab!",
+    "website_url": "https://github.com/jakzo/BonelabAttackOnTitan",
+    "dependencies": ["LavaGang-MelonLoader-0.5.7"]
+}

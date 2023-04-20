@@ -1,0 +1,24 @@
+{
+    "editor.tabSize": 4,
+    "omnisharp.useModernNet": true,
+    "editor.formatOnSave": true,
+    "files.autoSave": "onFocusChange",
+    "[csharp]": {
+        "editor.defaultFormatter": "csharpier.csharpier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml",
+        "files.trimFinalNewlines": false
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "xml.format.enabled": true,
+    "xml.format.maxLineWidth": 0
+}
